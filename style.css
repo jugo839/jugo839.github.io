@@ -65,7 +65,55 @@ img{max-width:100%;
 #wrapper #rating_DEA_routes  tbody tr:nth-child(even) {
   background-color: #e495e4 !important;
 }
+#rating_list select{
+	border: 1px red;
+}
 
+
+select {
+    border: 2px solid #eee;
+    border-radius: 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance:none;
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+    outline:none;
+    padding-left: 15px;
+    box-shadow: 3px 3px 30px #eee;
+    transition: 0.2s;
+}
+
+select:focus, select:hover {
+  box-shadow: 3px 3px 10px #eee
+}
+  
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+  
+select::-ms-expand {
+    display: none;
+}
+  
+.select-arrow {
+    color: #333;
+    right:0px;
+    top: 10px;
+    width:30px;
+    position:absolute;
+    display:block;
+    z-index: 10;
+    margin: 0 0 0 0;
+    pointer-events:none;
+}
 /*
 #wrapper #rating_DEA_routes {
   background-color: #ff33cc !important;
