@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+	padding:0;
+	border:0; 
+	/*font-size:100%; */
+	/*font:inherit;*/
+	vertical-align:baseline; 
+	outline:0;
+	margin:0 auto;
+}
+html{margin:0 auto;
+	background:#fff;
+	}
+body{/*background-color:#ff0;*/
+	color:#2C2C2C;
+	font:normal 100% Arial, Tahoma;
+	/*height:1000px;*/
+	
+	background-image:url(img/img009.png);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+html,body,div {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.showhide {  
+   display:none;
+}
+
+img{max-width:100%;
+	border:none;
+}
+#hidden_div {
+    display: none;
+}
+#wrapper{
+	width:80%;
+	height:100%;
+	/*margin: 15px;*/
+	padding: 5% 5% 0 5%;
+	/*background-color:#f00;*/
+	
+}
+.header{/*background:url(images/bgHeader.png) 0 0 repeat-x;*/
+		left:0;
+		height:119px;
+		position:relative;
+}
+#wrapper object {
+	width:30%;
+	/*background-color: orange;*/
+	margin: 2% 1% 0 1%;
+	display: none;
+	/*overflow-x:auto;*/
+}
+
+#wrapper #rating_DEA_routes  tbody tr:nth-child(odd) {
+  background-color: #ff33cc !important;
+}
+
+#wrapper #rating_DEA_routes  tbody tr:nth-child(even) {
+  background-color: #e495e4 !important;
+}
+
+/*
+#wrapper #rating_DEA_routes {
+  background-color: #ff33cc !important;
+  border: 5px solid red !important;
+} 
+table#rating_DEA_routes{
+	background-color: green !important;
+}*/
+
+#wrapper #rating_DEA_routes  td:nth-child(2),
+th:nth-child(2){
+  background: yellow;
+}
