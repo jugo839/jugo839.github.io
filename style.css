@@ -127,3 +127,16 @@ table#rating_DEA_routes{
 th:nth-child(2){
   background: yellow;
 }
+
+
+a#arrowUp{position:fixed;
+	width:4%; /* 100px/ 250px */
+	bottom:1%; 
+	right:1%;
+}
+a#arrowUp, #authorization{display:none;}
+
+a#arrowUp:before {position:absolute;
+	margin:-15px 0 0 0;
+}
+
